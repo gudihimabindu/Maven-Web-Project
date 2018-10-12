@@ -7,13 +7,6 @@
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>2.0</version>
-<<<<<<< HEAD
-  <name>Maven Web Project July9th</name>
-  <description>Maven Web Project for Java</description>
-=======
-  <name>Maven Web Project 22nd september</name>
-  <description>Maven Web Project for Java Project</description>
->>>>>>> stage
 
  <organization>
      <name>Mithun Technologies</name>
