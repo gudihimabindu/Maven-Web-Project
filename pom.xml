@@ -7,11 +7,9 @@
   <artifactId>maven-web-project</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-<<<<<<< HEAD
-  <name>Maven Web Project 22nd dec</name>
-=======
+
   <name>Maven Web Project 22nd jan</name>
->>>>>>> origin
+
   <description>Maven Web Project for Java Project</description>
 
  <organization>
