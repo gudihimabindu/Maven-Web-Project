@@ -1,6 +1,6 @@
 #!groovy
 
-node (label: 'myslave3') {
+node (label: 'slaves') {
 	   
 	stage('Checkout'){
 
@@ -15,13 +15,13 @@ node (label: 'myslave3') {
           sh "mvn clean package"
 }
        }
-	   
+	/*   
       stage('Sonar') {
                     //add stage sonar
 	      	 def mvn_version = 'M3'
                withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
               sh "mvn sonar:sonar"
                 }
-      }
+      }*/
        
 }
