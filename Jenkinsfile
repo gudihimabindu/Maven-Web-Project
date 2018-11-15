@@ -8,13 +8,19 @@ node {
        }
 
        stage('BuildArtifact'){
+	        def mvn_version = 'M3'
+         withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] )
+	       {
 
           sh 'mvn install'
+	       }
        }
 	   
-      stage('Sonar') {
+      /*
+	stage('Sonar') {
                     //add stage sonar
                     sh 'mvn sonar:sonar'
                 }
+		*/
        
 }
