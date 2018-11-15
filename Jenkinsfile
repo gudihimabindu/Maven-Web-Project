@@ -1,6 +1,6 @@
 #!groovy
 
-node {
+node(label: 'slaves') {
 	   
 	stage('Checkout'){
 
